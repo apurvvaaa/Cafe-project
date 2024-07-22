@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight - Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 20px;
+        }
+        .contact-info, .contact-form {
+            margin-bottom: 40px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+        .contact-form input, .contact-form textarea, .contact-form select {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .logo{
+            height: 150px;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact-form{
+            font-size: x-large;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body background="https://www.textures4photoshop.com/tex/thumbs/restaurant-food-frame-with-rustic-wood-background-free-93.jpg">
+    <header>
+        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/fd49be43652201.Y3JvcCw1NzcsNDUxLDAsMA.jpeg" alt="logo" class="logo" >
+        <h1>Contact Café Delight</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contactt.html">Contact</a>
+    </nav>
+    
+        <section class="contact-form">
+            <h3>    </h3>
+            
+            <form action="#" method="post">
+                
+                <label for="name"><b>Name:</b></label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="contact"><b>Contact:</b></label>
+                <input type="text" id="contact" name="contact" required></input>
+
+            <label for="Address"><b>Address</b></label>
+            <input type="text" id="address" name="address" required></input>
+
+                <label for="email"><b>Email:</b></label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="menu"><b>Select Drinks:</b></label>
+                <select id="menu" name="menu">
+                    <option value="none">None</option>
+                    <option value="espresso">Espresso - 576/-</option>
+                    <option value="Tea">Tea - 50/-</option>
+                    <option value="shakes">Shakes - 150/-</option>
+
+                </select>
+                <label for="menu"><b>Select Indian food:</b></label>
+                <select id="menu" name="menu">
+                    <option value="none">None</option>
+                    <option value="dal Makhani">Dal Makhani - 300/-</option>
+                    <option value="paneer butter masala">Paneer Butter Masala - 300/-</option>
+                    <option value="garlic Naan">Garlic naan - 45/-</option>
+                    <option value="channa masala">Channa Masala - 250/-</option>
+                </select>
+                <label for="menu"><b>Select Snacks:</b></label>
+                <select id="menu" name="menu">
+                    <option value="none">None</option>
+                    <option value="Croissant">Croissant - 300/-</option>
+                    <option value="fries">Fries - 150/-</option>
+                    <option value="burger">Burger - 200/-</option>
+                    <option value="pizza">Pizza - 400/-</option>
+                    <option value="Blueberry muffin">Blueberry Muffin - 150/-</option>
+                    <option value="Sandwhich">Sandwhich - 150/-</option>
+                    <option value="pasta">Psata - 200/-</option>
+                    <option value="Dosa">Dosa - 120/-</option>
+                </select>
+                <label for="menu"><b>Select Desserts:</b></label>
+                <select id="menu" name="menu">
+                    <option value="none">None</option>
+                    <option value="Pastry">Pastry - 70/-</option>
+                    <option value="Pancakes">Pancakes - 120/-</option>
+                </select>
+                
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div class="content">
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Address:</strong> 123 Coffee St, 3b2, Mohali</p>
+                <p><strong>Phone:</strong> (555) 123-4567</p>
+                <p><strong>Email:</strong> info@cafedelight.com</p>
+            </section>
+        <p>&copy; 2024 Café Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
